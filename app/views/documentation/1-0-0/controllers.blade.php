@@ -54,5 +54,8 @@
   <p><strong>@log</strong></p>
 
   <script src="https://gist.github.com/GesJeremie/5e98e27b83e4a2bb16bd.js"></script>
-  
+
+  <p><strong>@view</strong></p>
+
+  <p>It will render a view, see the <a href="{{ url('documentation/1.0.0/view') }}">view documentation</a> for more details.</p>
 @stop
