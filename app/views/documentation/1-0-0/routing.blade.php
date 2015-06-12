@@ -20,4 +20,10 @@
 
   <div class="flash">If the name is not <strong>batman</strong>, the code will not be executed.</div>
 
+  <h2>Routing to controllers</h2>
+
+  <p>
+    Gotham allows you to not only route to Closures, but also to controller classes.<br />
+    See the documentation on <a href="{{ url('documentation/1-0-0/controllers') }}">controllers</a> for more details.
+  </p>
 @stop
