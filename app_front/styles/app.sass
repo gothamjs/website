@@ -1,0 +1,65 @@
+// ---------------------------------------------------------------
+// Google fonts Lato
+// ---------------------------------------------------------------
+// We import the google font Lato from google
+//
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700")
+
+// ---------------------------------------------------------------
+// Csstyle
+// ---------------------------------------------------------------
+// We import the library csstyle.io
+//
+@import bower_components/csstyle/csstyle.scss
+
+// ---------------------------------------------------------------
+// Colors
+// ---------------------------------------------------------------
+// Load colors file
+//
+@import colors
+
+// ---------------------------------------------------------------
+// Csstyle Button
+// ---------------------------------------------------------------
+// We config and load the button component
+//
+$csstyle-button-font-weight: 300
+$csstyle-button-font-family: 'Lato', sans-serif
+$csstyle-button-namespace: 'btn'
+
+@import bower_components/csstyle-button/button
+
+// ---------------------------------------------------------------
+// Mixins
+// ---------------------------------------------------------------
+// We load the mixin file
+//
+@import mixins
+
+// ---------------------------------------------------------------
+// Hooks
+// ---------------------------------------------------------------
+// We load the hooks
+//
+@import hooks
+
+body
+  font-family: "Lato", sans-serif
+  background-color: #F7F7F7
+
+// ---------------------------------------------------------------
+// Components App
+// ---------------------------------------------------------------
+// Import all components
+//
+@import components/nav
+@import components/title
+@import components/hero
+@import components/img
+@import components/align
+@import components/feature
+@import components/spacer
+@import components/sidebar
+@import components/content
+@import components/flash

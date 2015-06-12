@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
+Route::get('/', 'PageController@getHome');
+Route::get('/documentation/{version}/{page}', 'DocumentationController@getIndex');
+Route::get('/documentation', function() {
+
+  return Redirect::to('/documentation/1.0.0/installation');
+  
 });
