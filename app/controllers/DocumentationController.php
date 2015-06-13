@@ -15,13 +15,12 @@ class DocumentationController extends BaseController {
 
     if (file_exists($path))
     {
-        $this->layout->content = View::make('documentation.' . $version . '.' . $page);
+      $this->layout->content = View::make('documentation.' . $version . '.' . $page);
     }
     else {
-      App::abort(404);
+      return Redirect::to('/documentation/1.0.0/installation');
     }
 
-    //$this->layout->content = View::make('documentation.index');
 	}
 
 
