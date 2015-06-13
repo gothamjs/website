@@ -11,7 +11,6 @@
       <div class="spacer --md"></div>
 
       <a class="btn --info --xl" href="{{ url('documentation') }}">Documentation</a>
-      <a class="btn --default --xl">Screencasts</a>
 
     </div>
   </div>
@@ -58,4 +57,5 @@
 
 
   </div>
+
 @stop

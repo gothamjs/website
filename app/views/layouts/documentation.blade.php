@@ -26,8 +26,6 @@
       <div class="spacer --md"></div>
 
       <a class="btn --primary --xl" href="{{ url('') }}">Website</a>
-      <a class="btn --default --xl">Screencasts</a>
-
 
     </div>
   </div>
@@ -53,9 +51,6 @@
 
           <li class="sidebar__title">Advanced</li>
           <li><a href="{{ url('documentation/' . $version . '/production') }}">Production mode</a></li>
-          <li><a href="{{ url('documentation/' . $version . '/styles') }}">Styles</a></li>
-          <li><a href="{{ url('documentation/' . $version . '/images') }}">Images</a></li>
-
 
         </ul>
       </div>
