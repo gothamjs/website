@@ -215,9 +215,13 @@ body {
   .content h2 {
     font-size: 30px;
     margin-top: 3em; }
+  .content h3 {
+    font-size: 17px;
+    margin-top: 1.8em; }
   .content p {
     font-size: 16px;
-    font-weight: 300; }
+    font-weight: 300;
+    line-height: 1.8em; }
   .content a {
     text-decoration: none;
     color: #02BAF2; }
@@ -239,6 +243,35 @@ body {
   background-color: #D6E1E5;
   border-radius: 3px;
   padding: 10px; }
+
+.table {
+  border: 1px solid #e7e7e7;
+  font-weight: 300;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: center;
+  table-layout: fixed;
+  margin-bottom: 2em; }
+  .table td {
+    overflow: hidden;
+    word-break: break-all; }
+  .table tbody tr:nth-child(odd) {
+    background-color: #f9fafc;
+    border: 1px solid #e7e7e7; }
+  .table__heading th {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: white; }
+  .table__content td {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  .table__content:nth-child(odd) {
+    background-color: #fff; }
 
 
 /*# sourceMappingURL=app.css.map*/

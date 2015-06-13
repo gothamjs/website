@@ -24,4 +24,11 @@
   <p>
     <div class="flash"><strong>get()</strong> allows any jquery selector.</div>
   </p>
+
+  <h2>Exclude some datas</h2>
+
+  <p>Sometimes you don't want to keep some datas from the form in your JSON, you can use <em>exclude()</em>
+
+  <script src="https://gist.github.com/GesJeremie/0fa6f349fa3e663b8eda.js"></script>
+
 @stop
