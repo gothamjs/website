@@ -6,7 +6,8 @@
     Take a look to the <a href="https://lodash.com/docs">documentation of lo-dash</a>
   </p>
 
-  <h2>How to create an helper</h2>
+  <!-- How to -->
+  <h2 id="create-helper"><a class="anchor" href="#create-helper">#</a> How to create an helper</h2>
 
   <p>
     Gotham uses the concept of <em>mixins</em> of lo-dash. You can create an helper everywhere in your application, but the right place is the file

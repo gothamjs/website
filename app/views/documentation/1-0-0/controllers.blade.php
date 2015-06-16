@@ -1,6 +1,8 @@
 @section('content')
   <h1>Controllers</h1>
 
+  <!-- Intro -->
+
   <p>
     Instead of defining all of your route-level logic in a single <em>routes.coffee</em> file, you may wish to organize this behavior using Controller classes. Controllers can group related route logic into a class.
   </p>
@@ -13,7 +15,10 @@
 
   <div class="flash">All controllers must be put in <strong>app/controllers</strong></div>
 
-  <h2>Attach a controller to a route</h2>
+
+  <!-- Attach a controller to a route -->
+
+  <h2 id="route"><a class="anchor" href="#route">#</a> Attach a controller to a route</h2>
 
   <p>
     Let's say you created a controller Joker:
@@ -35,8 +40,9 @@
 
   <script src="https://gist.github.com/GesJeremie/cb25e62acbc431e80194.js"></script>
 
+  <!-- Shortcuts -->
 
-  <h2>Shortcuts</h2>
+  <h2 id="shortcuts"><a class="anchor" href="#shortcuts">#</a> Shortcuts</h2>
 
   <p>Controllers provide some shortcuts:</p>
 

@@ -11,7 +11,9 @@
 
   <script src="https://gist.github.com/GesJeremie/c5872928460c3155ae70.js"></script>
 
-  <h2>How to use it</h2>
+  <!-- How -->
+
+  <h2 id="how"><a href="#how" class="anchor">#</a> How to use it</h2>
 
   <p>Let's say your backend render an HTML view like:</p>
 
@@ -25,7 +27,9 @@
     <div class="flash"><strong>get()</strong> allows any jquery selector.</div>
   </p>
 
-  <h2>Exclude some datas</h2>
+  <!-- Exclude datas -->
+
+  <h2 id="exclude-datas"><a href="#exclude-datas" class="anchor">#</a> Exclude some datas</h2>
 
   <p>Sometimes you don't want to keep some datas from the form in your JSON, you can use <em>exclude()</em>
 
