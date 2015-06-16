@@ -18,7 +18,7 @@
   <div class="spacer --md"></div>
 
   <div class="container">
-
+    <div class="col-md-8 col-md-offset-2">
         <!-- Easy to learn -->
         <div class="feature">
           <h3>Super easy to learn</h3>
@@ -53,6 +53,7 @@
           </p>
           <script src="https://gist.github.com/GesJeremie/f19d1cd30543253fdc25.js"></script>
         </div>
+    </div>
 
 
 
