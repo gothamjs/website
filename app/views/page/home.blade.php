@@ -11,6 +11,7 @@
       <div class="spacer --md"></div>
 
       <a class="btn --info --xl" href="{{ url('documentation') }}">Documentation</a>
+      <a class="btn --default --xl" href="https://github.com/gothamjs/framework">Github</a>
 
     </div>
   </div>
