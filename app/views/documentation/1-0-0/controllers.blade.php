@@ -4,7 +4,7 @@
   <!-- Intro -->
 
   <p>
-    Instead of defining all of your route-level logic in a single <em>routes.coffee</em> file, you may wish to organize this behavior using Controller classes. Controllers can group related route logic into a class.
+    Instead of defining all of your routes in a single <em>routes.coffee</em> file, you can organize them using Controller classes. Controllers can group related route logic into a class.
   </p>
 
   <p>
