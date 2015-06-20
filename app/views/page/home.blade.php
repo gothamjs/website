@@ -6,7 +6,7 @@
     <div class="align --center">
       <img class="img --logo" src="logo-gotham.png" />
       <h1 class="title --logo">Gotham</h1>
-      <h2 class="title --punchline">Coffeescript Framework for backend developers who hates front-end development</h2>
+      <h2 class="title --punchline">Coffeescript Framework for back-end developers who hate front-end development</h2>
 
       <div class="spacer --md"></div>
 
