@@ -2,15 +2,15 @@
   <h1>Helpers</h1>
 
   <p>
-    Gotham uses <a href="https://github.com/lodash/lodash">lo-dash</a> who provide a bunch of helpers for your application.<br/>
-    Take a look to the <a href="https://lodash.com/docs">documentation of lo-dash</a>
+    Gotham uses <a href="https://github.com/lodash/lodash">lo-dash</a>. It provides a bunch of helpers for your application.<br/>
+    You can see the <a href="https://lodash.com/docs">lo-dash documentation</a> here.
   </p>
 
   <!-- How to -->
-  <h2 id="create-helper"><a class="anchor" href="#create-helper">#</a> How to create an helper</h2>
+  <h2 id="create-helper"><a class="anchor" href="#create-helper">#</a> How to create a helper</h2>
 
   <p>
-    Gotham uses the concept of <em>mixins</em> of lo-dash. You can create an helper everywhere in your application, but the right place is the file
+    Gotham uses the lo-dash <em>mixins</em> function. You can create helpers anywhere withihn your application, but the right place is the file
     <em>helpers.coffee</em>
   </p>
 

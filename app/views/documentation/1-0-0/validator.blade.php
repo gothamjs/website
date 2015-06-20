@@ -3,7 +3,7 @@
   <h1>Validator</h1>
 
   <p>
-    Gotham ships with a simple, convenient facility for validating data and retrieving validation error messages via the Validator class.
+    Gotham ships with a simple, convenient class for validating data and retrieving validation error messages.
   </p>
 
   <!-- Basic usage -->
@@ -22,24 +22,24 @@
   <script src="https://gist.github.com/GesJeremie/1e6d56cacf625f2db132.js"></script>
 
   <!-- All error single data-->
-  <h3 id="all-error-single-data"><a href="#all-error-single-data" class="anchor">#</a> Retrieving all error messages for a data</h3>
+  <h3 id="all-error-single-data"><a href="#all-error-single-data" class="anchor">#</a> Retrieving all error messages for a data field</h3>
 
   <script src="https://gist.github.com/GesJeremie/0708304d8e88ac88c184.js"></script>
 
   <!-- All error all data -->
-  <h3 id="all-error-all-data"><a href="#all-error-all-data" class="anchor">#</a> Retrieving all error messages for all data</h3>
+  <h3 id="all-error-all-data"><a href="#all-error-all-data" class="anchor">#</a> Retrieving all error messages for all data fields</h3>
 
   <script src="https://gist.github.com/GesJeremie/a9bc61b4ce3050a9da03.js"></script>
 
   <!-- Error exist -->
-  <h3 id="error-exist"><a href="#error-exist" class="anchor">#</a> Determining if messages exist for a data</h3>
+  <h3 id="error-exist"><a href="#error-exist" class="anchor">#</a> Determining if a data field has an error message</h3>
 
   <script src="https://gist.github.com/GesJeremie/d9bc479aca39ddf978cf.js"></script>
 
   <!-- Change attributes -->
   <h3 id="change-attributes"><a class="anchor" href="#change-attributes">#</a> Change attributes</h3>
   <p>
-    When you retrieve the errors, Gotham uses the label of a data to generate the messages.
+    When you retrieve the errors, Gotham uses the label of a data field to generate the messages.
   </p>
 
   <script src="https://gist.github.com/GesJeremie/d5be344daa4cfaf85021.js"></script>
@@ -56,7 +56,7 @@
   <h2 id="custom-rules"><a href="#custom-rules" class="anchor">#</a> Custom validation rule</h2>
 
   <p>
-    Gotham provides a variety of helpful validation rules. However, you may wish to specify some of your own. The method of registering custom validation rules is using the <em>Validator.rule</em> method:
+    Gotham provides a variety of helpful validation rules. However, you may wish to specify some of your own. The wa to register custom validation rules is by using the <em>Validator.rule</em> method:
   </p>
 
   <script src="https://gist.github.com/GesJeremie/d1ffd04eee3e6dd085d0.js"></script>

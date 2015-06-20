@@ -2,13 +2,13 @@
   <h1>View</h1>
 
   <p>
-    Sometimes you need to build some HTMl blocks in your application like:
+    Sometimes you need to build some HTML blocks in your application like:
   </p>
 
   <script src="https://gist.github.com/GesJeremie/9b4734aee1b8f2341d49.js"></script>
 
   <p>
-    It's enough when you have tiny HTML blocks, but sometimes it can be very ugly. That's why Gotham uses the templating system <a href="https://github.com/sstephenson/eco">ECO</a>.
+    It's enough when you have tiny HTML blocks, but sometimes it can be very ugly. That's why Gotham uses the <a href="https://github.com/sstephenson/eco">ECO</a> templating system.
   </p>
 
   <h2>Render a view</h2>

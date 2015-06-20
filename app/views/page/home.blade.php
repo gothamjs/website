@@ -24,14 +24,14 @@
         <div class="feature">
           <h3>Super easy to learn</h3>
           <script src="https://gist.github.com/GesJeremie/c8a12e9292a5b057ceb1.js"></script>
-          <p>If you already learnt an MVC backend framework (Ruby on rails, Laravel, etc.), you know how to use gotham.</p>
+          <p>If you already learned an MVC backend framework (Ruby on rails, Laravel, etc.) then you already know how to use gotham.</p>
         </div>
 
         <!-- Bower integration -->
         <div class="feature">
           <h3>Bower Integration</h3>
           <p>
-            Install a third-party package can't be easier.
+            Installing a third-party package couldn't be easier.
           </p>
           <script src="https://gist.github.com/GesJeremie/dcc7eacaa64b05fcd55d.js"></script>
           <script src="https://gist.github.com/GesJeremie/7d28577197ce50bb84f2.js"></script>
@@ -50,7 +50,7 @@
         <div class="feature">
           <h3>Validator Component</h3>
           <p>
-            Lazy to validate your forms ? Use the Validator Component.
+            Too lazy to validate your forms ? Use the Validator Component.
           </p>
           <script src="https://gist.github.com/GesJeremie/f19d1cd30543253fdc25.js"></script>
         </div>
