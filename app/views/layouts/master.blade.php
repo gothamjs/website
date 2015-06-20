@@ -2,8 +2,8 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	
-	<title>Gotham | Coffeescript Framework for backend developers who hates front-end development</title>
+
+	<title>Gotham | Coffeescript Framework for back-end developers who hate front-end development</title>
 
   <!-- Gotham -->
   <link rel="stylesheet" type="text/css" href="/stylesheets/vendor.css">
