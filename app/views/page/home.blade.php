@@ -16,7 +16,49 @@
     </div>
   </div>
 
-  <div class="spacer --md"></div>
+  <div class="spacer --xxl"></div>
+
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="concept">
+        <h2 class="concept__title">Core Principles</h2>
+        <div class="concept__request"><strong>URL Request</strong> http://www.domain.com/users/edit/25</div>
+        <div class="concept__description">Imagine your back-end render a view for that request</div>
+        <div class="concept__down"><i class="fa fa-caret-down"></i></div>
+        <div class="concept__browser">
+
+          <div class="concept__browser_heading">
+            <div class="concept__browser_circle"></div>
+            <div class="concept__browser_circle"></div>
+            <div class="concept__browser_circle"></div>
+          </div>
+
+          <div class="concept__browser_content">
+            <div class="concept__browser_label">Name:</div>
+            <div class="concept__browser_input">Batman</div>
+            <div class="clearfix"></div>
+            <div class="concept__browser_button">Edit User</div>
+          </div>
+
+        </div>
+
+        <div class="concept__description">Maybe you want validate the form before to send the form, or do other stuff ?</div>
+        <div class="concept__down"><i class="fa fa-caret-down"></i></div>
+
+        <div class="concept__description">Just bind the request with gotham !</div>
+        <div class="concept__down"><i class="fa fa-caret-down"></i></div>
+
+        <script src="https://gist.github.com/GesJeremie/0d2159755eddae65015a.js"></script>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer --xxl"></div>
+
+  <div class="concept">
+    <div class="concept__title">But it's not just that</div>
+  </div>
 
   <div class="container">
     <div class="col-md-8 col-md-offset-2">
@@ -59,5 +101,6 @@
 
 
   </div>
+
 
 @stop
