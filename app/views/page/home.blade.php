@@ -23,7 +23,7 @@
       <div class="concept">
         <h2 class="concept__title">Core Principles</h2>
         <div class="concept__request"><strong>URL Request</strong> http://www.domain.com/users/edit/25</div>
-        <div class="concept__description">Imagine your back-end render a view for that request</div>
+        <div class="concept__description">Imagine your back-end renders a view for that request</div>
         <div class="concept__down"><i class="fa fa-caret-down"></i></div>
         <div class="concept__browser">
 
@@ -42,7 +42,7 @@
 
         </div>
 
-        <div class="concept__description">Maybe you want validate the form before to send the form, or do other stuff ?</div>
+        <div class="concept__description">You may want to validate the form before sending it...</div>
         <div class="concept__down"><i class="fa fa-caret-down"></i></div>
 
         <div class="concept__description">Just bind the request with gotham !</div>
