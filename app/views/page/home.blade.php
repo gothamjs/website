@@ -19,88 +19,127 @@
   <div class="spacer --xxl"></div>
 
   <div class="container">
+
     <div class="col-md-8 col-md-offset-2">
-      <div class="concept">
-        <h2 class="concept__title">Core Principles</h2>
-        <div class="concept__request"><strong>URL Request</strong> http://www.domain.com/users/edit/25</div>
-        <div class="concept__description">Imagine your back-end renders a view for that request</div>
-        <div class="concept__down"><i class="fa fa-caret-down"></i></div>
-        <div class="concept__browser">
 
-          <div class="concept__browser_heading">
-            <div class="concept__browser_circle"></div>
-            <div class="concept__browser_circle"></div>
-            <div class="concept__browser_circle"></div>
-          </div>
+      <div class="manifest">
+        <h2 class="manifest__title">Manifest</h2>
+        <p class="manifest__content">
 
-          <div class="concept__browser_content">
-            <div class="concept__browser_label">Name:</div>
-            <div class="concept__browser_input">Batman</div>
-            <div class="clearfix"></div>
-            <div class="concept__browser_button">Edit User</div>
-          </div>
+          Gotham is based on <a href="http://brunch.io/">Brunch.io</a>, a build system like <a href="http://gruntjs.com/">Grunt</a> and <a href="http://gulpjs.com/">Gulp</a>.
 
+          <br/>
+
+          So with Gotham you can enjoy <strong>commonJS</strong>, <strong>require files</strong> when you need it, work with an <strong>elegant syntax</strong> (coffeescript), <strong>compile</strong>, <strong>minify</strong> your files and install a <strong>third-package</strong> with <a href="http://bower.io/">Bower</a> (Brunch handles for you the orders of your dependencies automatically).
+
+        </p>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="img --manifest"><img src="/screen-intro.png" /></div>
+
+
+
+    <div class="manifest">
+      <div class="col-md-8 col-md-offset-2">
+
+        <h3 class="manifest__title --sm">Routing</h3>
+        <p class="manifest__content">
+
+          Let's imagine for the request <em>http://domain.com/users/edit/10</em> your back-end renders an HTML view but you want execute some Javascript (Validate a form, apply some effects, initialize a jQuery plugin, whatever). The first step is to bind the request with the router system.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="img --manifest"><img src="/screen-routes.png" /></div>
+
+
+    <div class="col-md-8 col-md-offset-2">
+
+      <div class="manifest">
+        <p class="manifest__content">
+
+          In that example Gotham executes a controller located in <em>controllers/users/edit.coffee</em> <br/>
+
+          You can execute a callback than a controller and mount some constraints.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+
+    <div class="col-md-8 col-md-offset-2">
+
+      <div class="manifest">
+        <h3 class="manifest__title --sm">Controllers</h3>
+      </div>
+    </div>
+
+
+    <div class="img --manifest"><img src="/screen-controller.png" /></div>
+
+    <div class="col-md-8 col-md-offset-2">
+
+      <div class="manifest">
+        <p class="manifest__content">
+
+          A controller is a basic <strong>CommonJS class</strong>, you can do whatever you want. Gotham after the routing system load the controller wanted, executes the method <em>before()</em> to let you validate the request, etc. After that Gotham executes the method <em>run()</em>. It's the main entry of your code !
+
+          <br/><br/>
+
+          When you are working in a controller, some <a href="{{ url('documentation/1.0.0/controllers#shortcuts') }}">shortcuts</a> are available.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="col-md-8 col-md-offset-2">
+      <h3 class="manifest__title --sm">Views</h3>
+    </div>
+
+    <div class="img --manifest"><img src="/screen-view.png" /></div>
+
+    <div class="col-md-8 col-md-offset-2">
+
+      <div class="manifest">
+        <p class="manifest__content">
+          A view is an <a href="https://github.com/sstephenson/eco">ECO</a> template. It's really helpful when you need to <strong>generate</strong> some pieces of HTML based on variables.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-8 col-md-offset-2">
+      <h3 class="manifest__title --sm">What else ?</h3>
+    </div>
+
+    <div class="col-md-8 col-md-offset-2">
+
+      <div class="manifest">
+        <p class="manifest__content">
+          You can create your <a href="{{ url('documentation/1.0.0/helpers') }}">helpers</a>, enjoy the libraries shipped with Gotham: <a href="{{ url('documentation/1.0.0/validator') }}">Validator</a>, <a href="{{ url('documentation/1.0.0/syphon') }}">Syphon</a>, etc ...
+        </p>
+
+        <div class="spacer"></div>
+
+        <div class="manifest__button">
+          <a class="btn --info --xl" href="{{ url('documentation') }}">Try Gotham</a>
         </div>
 
-        <div class="concept__description">You may want to validate the form before sending it...</div>
-        <div class="concept__down"><i class="fa fa-caret-down"></i></div>
-
-        <div class="concept__description">Just bind the request with gotham !</div>
-        <div class="concept__down"><i class="fa fa-caret-down"></i></div>
-
-        <script src="https://gist.github.com/GesJeremie/0d2159755eddae65015a.js"></script>
 
       </div>
     </div>
+
   </div>
 
   <div class="spacer --xxl"></div>
-
-  <div class="concept">
-    <div class="concept__title">But it's not just that</div>
-  </div>
-
-  <div class="container">
-    <div class="col-md-8 col-md-offset-2">
-        <!-- Easy to learn -->
-        <div class="feature">
-          <h3>Super easy to learn</h3>
-          <script src="https://gist.github.com/GesJeremie/c8a12e9292a5b057ceb1.js"></script>
-          <p>If you already learned an MVC backend framework (Ruby on rails, Laravel, etc.) then you already know how to use gotham.</p>
-        </div>
-
-        <!-- Bower integration -->
-        <div class="feature">
-          <h3>Bower Integration</h3>
-          <p>
-            Installing a third-party package couldn't be easier.
-          </p>
-          <script src="https://gist.github.com/GesJeremie/dcc7eacaa64b05fcd55d.js"></script>
-          <script src="https://gist.github.com/GesJeremie/7d28577197ce50bb84f2.js"></script>
-        </div>
-
-        <!-- Router -->
-        <div class="feature">
-          <h3>Router Component</h3>
-          <p>
-            Execute a script/controller when you need it.
-          </p>
-          <script src="https://gist.github.com/GesJeremie/8007d94ea03abbd5451e.js"></script>
-        </div>
-
-        <!-- Validation -->
-        <div class="feature">
-          <h3>Validator Component</h3>
-          <p>
-            Too lazy to validate your forms ? Use the Validator Component.
-          </p>
-          <script src="https://gist.github.com/GesJeremie/f19d1cd30543253fdc25.js"></script>
-        </div>
-    </div>
-
-
-
-  </div>
-
 
 @stop

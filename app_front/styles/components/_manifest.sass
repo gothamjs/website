@@ -1,0 +1,38 @@
+@include component(manifest)
+
+  @include part(title)
+    font-weight: 700
+    font-size: 60px
+    text-align: center
+
+    @include option(sm)
+      font-size: 35px
+
+  @include part(content)
+    font-weight: 300
+    font-size: 18px
+    text-align: justify
+    line-height: 1.8em
+
+    em
+      background-color: #02BAF2
+      border-radius: 3px
+      color: white
+      padding:
+        left: 6px
+        right: 6px
+        top: 3px
+        bottom: 3px
+      font-style: normal
+      font-weight: 300
+
+  @include part(button)
+    text-align: center
+    margin-top: 4em
+
+    a
+      font-size: 30px !important
+      font-weight: 100 !important
+
+
+
