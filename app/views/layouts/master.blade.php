@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="description" content="Coffeescript Framework for back-end developers who hate front-end development" />
+	<meta name="description" content="Simple Coffeescript Framework for front-end development" />
 	<title>Gotham | Simple Coffeescript Framework for front-end development</title>
 
   <!-- Fontawesome -->
