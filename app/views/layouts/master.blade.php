@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="description" content="Coffeescript Framework for back-end developers who hate front-end development" />
-	<title>Gotham | Coffeescript Framework for back-end developers who hate front-end development</title>
+	<title>Gotham | Simple Coffeescript Framework for front-end development</title>
 
   <!-- Fontawesome -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
