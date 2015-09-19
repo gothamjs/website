@@ -19,7 +19,9 @@
 
 </head>
 <body>
-  @yield('content')
+  <div id="main" class="animated fadeIn">
+    @yield('content')
+  </div>
 
   <!-- Analytics -->
   <script>

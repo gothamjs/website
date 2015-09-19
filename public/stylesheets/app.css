@@ -149,6 +149,12 @@ body {
       box-shadow: inset 0 0 0 0 #7f8c8d; }
       .navbar__button.\--github:focus, .navbar__button.\--github:hover {
         box-shadow: inset 0 -100px 0 0 #7f8c8d; }
+    .navbar__button.\--home {
+      background-color: #4aa3df;
+      border-bottom: 5px solid #2980b9;
+      box-shadow: inset 0 0 0 0 #4aa3df; }
+      .navbar__button.\--home:focus, .navbar__button.\--home:hover {
+        box-shadow: inset 0 -100px 0 0 #2980b9; }
 
 .title {
   margin: 0;

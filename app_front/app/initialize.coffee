@@ -7,6 +7,8 @@
 ##
 Bootstrap = require 'core/bootstrap'
 
+$('#main').smoothState()
+
 # Hey sir, is the document ready ?
 $ ->
 

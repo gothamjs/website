@@ -169,6 +169,8 @@ var Bootstrap;
 
 Bootstrap = require('core/bootstrap');
 
+$('#main').smoothState();
+
 $(function() {
   var bootstrap;
   bootstrap = new Bootstrap({

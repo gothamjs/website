@@ -19,7 +19,7 @@
   <!-- Hero -->
   <div class="hero">
     <div class="container">
-      <div class="hero__image">
+      <div class="hero__image animated bounceIn">
         <img src="logo-gotham.png" />
       </div>
       <div class="hero__title">
