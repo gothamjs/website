@@ -1,6 +1,9 @@
 @include component(manifest)
+  margin-top: 10em
+  margin-bottom: 10em
 
   @include part(title)
+    margin-bottom: 0.5em
     font-weight: 700
     font-size: 60px
     text-align: center
@@ -8,7 +11,13 @@
     @include option(sm)
       font-size: 35px
 
-  @include part(content)
+  @include part(description)
+    background-color: white
+    padding: 20px
+    border-radius: 5px
+    width: 64%
+    margin-right: auto
+    margin-left: auto
     font-weight: 300
     font-size: 18px
     text-align: justify
