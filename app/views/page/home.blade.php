@@ -28,6 +28,9 @@
       <div class="hero__punchline">
         Simple Coffeescript framework for front-end development.
       </div>
+      <div class="hero__github">
+        <iframe src="https://ghbtns.com/github-btn.html?user=gothamjs&repo=framework&type=star&count=true&size=large" frameborder="0" scrolling="0"></iframe>
+      </div>
       <div class="code --intro">
         <div class="code__topbar">
           <div class="code__circle --red"></div>
