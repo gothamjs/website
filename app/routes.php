@@ -16,5 +16,11 @@ Route::get('/documentation/{version}/{page}', 'DocumentationController@getIndex'
 Route::get('/documentation', function() {
 
   return Redirect::to('/documentation/1.0.0/installation');
-  
+
+});
+Route::get('/screencasts/{version}', 'ScreencastController@getIndex');
+Route::get('/screencasts', function() {
+
+  return Redirect::to('/screencasts/1.0.0');
+
 });

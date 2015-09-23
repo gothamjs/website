@@ -1,0 +1,39 @@
+@include component(screencasts)
+  padding-top: 3em
+
+  @include part(entry)
+    text-align: center
+    background-color: white
+    border-radius: 5px
+    padding: 20px
+
+    h3
+      +font-montserrat
+      font-weight: 700
+      font-size: 30px
+
+    p
+      text-align: justify
+      font-size: 20px
+      text-align: center
+      font-weight: 300
+      min-height: 4em
+      margin-bottom: 0
+
+    h4
+      margin-top: 30px
+      background-color: #ECF0F1
+      +font-montserrat
+      font-size: 18px
+      display: inline-block
+      padding: 10px 15px
+      border-radius: 5px
+
+  @include part(link)
+    text-decoration: none
+    color: #333333
+
+    &:hover, &:focus
+      text-decoration: none
+      color: #333333
+

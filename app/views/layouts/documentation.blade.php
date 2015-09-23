@@ -17,20 +17,8 @@
 </head>
 <body>
   <div id="main" class="animated fadeIn">
-    <!-- Nav -->
-    <div class="navbar">
-      <div class="container">
-        <div class="pull-left">
-          <a href="http://brunch.io/" target="_blank"><img class="navbar__logo" title="Brunch" data-toggle="tooltip" src="/brunch.png" /></a>
-          <a href="http://bower.io/" target="_blank"><img class="navbar__logo" title="Bower" data-toggle="tooltip" src="/bower.png" /></a>
-          <a href="http://www.coffeescript.org/" target="_blank"><img class="navbar__logo" title="Coffeescript" data-toggle="tooltip" src="/coffeescript.png" /></a>
-        </div>
-        <div class="pull-right">
-        <a data-toggle="animate-nav-button" class="navbar__button --home" href="{{ url('/') }}">Home</a>
-        <a data-toggle="animate-nav-button" class="navbar__button --github" href="https://github.com/gothamjs/framework">Github</a>
-        </div>
-      </div>
-    </div>
+
+    @include('includes.nav')
 
     <!-- Hero -->
     <div class="hero">

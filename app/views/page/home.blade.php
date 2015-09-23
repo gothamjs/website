@@ -1,21 +1,5 @@
 @section('content')
 
-  <!-- Nav -->
-  <div class="navbar">
-    <div class="container">
-      <div class="pull-left">
-        <a href="http://brunch.io/" target="_blank"><img class="navbar__logo" title="Brunch" data-toggle="tooltip" src="brunch.png" /></a>
-        <a href="http://bower.io/" target="_blank"><img class="navbar__logo" title="Bower" data-toggle="tooltip" src="bower.png" /></a>
-        <a href="http://www.coffeescript.org/" target="_blank"><img class="navbar__logo" title="Coffeescript" data-toggle="tooltip" src="coffeescript.png" /></a>
-      </div>
-      <div class="pull-right">
-      <a data-toggle="animate-nav-button" class="navbar__button --doc" href="{{ url('documentation') }}">Documentation</a>
-      <a data-toggle="animate-nav-button" class="navbar__button --github" href="https://github.com/gothamjs/framework">Github</a>
-      </div>
-    </div>
-  </div>
-
-
   <!-- Hero -->
   <div class="hero">
     <div class="container">
@@ -146,6 +130,6 @@
   </div>
 
   <div class="try">
-    <a href="{{ url('documentation') }}">Let's try Gotham</a>
+    <a href="{{ url('screencasts') }}">Let's try Gotham</a>
   </div>
 @stop

@@ -20,6 +20,9 @@
 </head>
 <body>
   <div id="main" class="animated fadeIn">
+
+    @include('includes.nav')
+
     @yield('content')
   </div>
 
