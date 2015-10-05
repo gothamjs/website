@@ -24,7 +24,13 @@
     @include('includes.nav')
 
     @yield('content')
+
+    <div class="footer">
+      Another thing from <a href="http://gesjeremie.io/en">gesjeremie.io</a>
+    </div>
   </div>
+
+
 
   <!-- Analytics -->
   <script>
