@@ -1,9 +1,25 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="description" content="Simple Coffeescript Framework for front-end development" />
+
 	<title>Gotham | Simple Coffeescript Framework for front-end development</title>
+
+  @section('seo')
+    <!-- Meta -->
+    <meta name="description" content="Simple Coffeescript Framework for front-end development" />
+    <meta name="keywords" content="coffeescript, coffeescript framework, gothamjs, gotham-js, framework javascript" />
+
+    <!-- Facebook -->
+    <meta property="og:title" content="GothamJS" />
+    <meta property="og:description" content="Simple Coffeescript Framework for front-end development" />
+    <meta property="og:url" content="{{ url() }}" />
+    <meta property="og:site_name" content="GothamJS"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ url('gotham-screen-welcome.png') }}"/>
+  @show
+
 
   <!-- Fontawesome -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
