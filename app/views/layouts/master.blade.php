@@ -17,7 +17,7 @@
     <meta property="og:url" content="{{ url() }}" />
     <meta property="og:site_name" content="GothamJS"/>
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="{{ url('gotham-screen-welcome.png') }}"/>
+    <meta property="og:image" content="{{ url('share.png') }}"/>
   @show
 
 
