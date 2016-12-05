@@ -4,7 +4,15 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
+		"php": ">=5.4.0",
 		"laravel/framework": "4.2.*"
+	},
+	"extra": {
+		"heroku": {
+			"framework": "laravel",
+				"document-root": "public",
+				"index-document": "index.php"
+		}
 	},
 	"autoload": {
 		"classmap": [
